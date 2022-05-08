@@ -1,1 +1,30 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Variablen */
+
+$primary: rgb(0, 151, 232);
+$secondary: rgb(246, 255, 0);
+
+body {
+  background: $primary;
+}
+/* Klassen */
+
+.bg-primary {
+  background-color: $primary;
+}
+
+.c-primary {
+  color: $primary;
+}
+
+.c-white {
+  color: white;
+}
+
+.border-add {
+  border: 2px solid;
+  border-radius: 8px;
+}
