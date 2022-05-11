@@ -1,4 +1,27 @@
-<nav class="bg-primary">
-  <img class="main_logo" src="../../assets/img/Sparglück_logo.webp" alt="" />
-  <img class="text_logo" src="../../assets/img/Sparglück_text.webp" alt="" />
+<nav class="pl-4 bg-primary flex justify-between place-items-center">
+  <div class="flex-initial grow w-64">
+    <img class="main_logo" src="../../assets/img/Sparglück_logo.webp" alt="" />
+    <img class="text_logo" src="../../assets/img/Sparglück_text.webp" alt="" />
+  </div>
+  <app-button-md class="flex-initial items-end w-44 px-2.5 rounded bg-secondary"
+    >Brutto
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      class="h-4 w-4 mx-2 mb-1 inline"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+      stroke-width="2"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        d="M17 8l4 4m0 0l-4 4m4-4H3"
+      />
+    </svg>
+    Netto
+  </app-button-md>
+  <app-button-md class="flex-initial w-36">Kosten</app-button-md>
+  <app-button-md class="flex-initial w-36">Ersparnisse</app-button-md>
+  <app-button-md class="flex-initial w-36">Login</app-button-md>
 </nav>
